@@ -1,11 +1,11 @@
-package com.saugat.walmartapplication.activity
+package com.dinesh.walmart.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.saugat.walmartapplication.User
-import com.saugat.walmartapplication.databinding.ActivityRegisterBinding
+import com.dinesh.walmart.User
+import com.dinesh.walmart.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {
 

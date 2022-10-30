@@ -1,4 +1,4 @@
-package com.saugat.walmartapplication
+package com.dinesh.walmart
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -8,8 +8,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.saugat.walmartapplication.activity.RegisterActivity
-import com.saugat.walmartapplication.databinding.ActivityMainBinding
+import com.dinesh.walmart.activity.RegisterActivity
+import com.dinesh.walmart.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {
@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        userList.add(User("Saugat", "Pageni", "saugat@gmail.com", "apple"))
+        userList.add(User("Dinesh", "Sarma", "dinesh@gmail.com", "Dinesh123"))
         userList.add(User("Sagar", "Basnet", "sagar@gmail.com", "ball"))
         userList.add(User("Ram", "Pandit", "ram@gmail.com", "cat"))
         userList.add(User("Hari", "Sharma", "hari@gmail.com", "dog"))

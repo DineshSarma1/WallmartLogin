@@ -1,10 +1,10 @@
-package com.saugat.walmartapplication
+package com.dinesh.walmart
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
-import com.saugat.walmartapplication.databinding.ActivityShoppingCategoryBinding
+import com.dinesh.walmart.databinding.ActivityShoppingCategoryBinding
 
 class ShoppingCategory : AppCompatActivity() {
     private lateinit var binding: ActivityShoppingCategoryBinding

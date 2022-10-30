@@ -1,4 +1,4 @@
-package com.saugat.walmartapplication
+package com.dinesh.walmart
 
 import android.os.Parcel
 import android.os.Parcelable

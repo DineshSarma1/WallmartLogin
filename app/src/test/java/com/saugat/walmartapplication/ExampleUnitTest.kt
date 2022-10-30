@@ -1,4 +1,4 @@
-package com.saugat.walmartapplication
+package com.dinesh.walmart
 
 import org.junit.Test
 
